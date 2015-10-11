@@ -9,7 +9,9 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.12.3",
-    "swagger-express-mw": "^0.1.0"
+    "swagger-express-mw": "^0.1.0",
+    "volos-quota-memory": "^0.11.0",
+    "volos-swagger-apply": "0.0.2"
   },
   "devDependencies": {
     "should": "^7.1.0",

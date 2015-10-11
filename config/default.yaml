@@ -28,6 +28,7 @@ swagger:
       - swagger_security
       - _swagger_validate
       - express_compatibility
+      - volos-swagger-apply
       - _router
 
     # pipe to serve swagger (endpoint is in swagger.yaml)

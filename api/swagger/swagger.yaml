@@ -17,6 +17,14 @@ consumes:
 # format of the responses to the client (Accepts)
 produces:
   - application/json
+
+x-volos-resources:
+  MyQuota:
+    provider: volos-quota-memory
+    options:
+      timeUnit: minute
+      interval: 1
+      allow: 1  
 paths:
   /hello:
     # binds a127 app logic to a route
@@ -45,6 +53,8 @@ paths:
             
   /add:
     # binds a127 app logic to a route
+    x-volos-apply:
+        MyQuota: {}
     x-swagger-router-controller: math
     post:
       description: Returns sum of two numbers
