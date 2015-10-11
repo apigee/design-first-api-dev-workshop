@@ -1,2 +1,1 @@
-# iloveapi2015
-workshop example project to follow
+# Skeleton project for Swagger
