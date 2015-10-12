@@ -1,7 +1,7 @@
 # Design-first API Development Workshop 
 http://iloveapis.com/ 2015
 
-This workshop builds on top of hellow-world project that gets created as part of out-of-the-box project using 'swagger' npm module. Attendees will come out learning following topics:
+This workshop builds on top of hello-world project that gets created as part of out-of-the-box project using 'swagger' npm module. Attendees will come out learning following topics:
 
   -  What is a design-first API development?
   -  Project conventions
